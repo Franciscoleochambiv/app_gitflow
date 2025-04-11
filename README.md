@@ -5,6 +5,8 @@
 ---
 
 ## Modificacion agregando un nuevo feature para la prueba de flujo de trabajo
+Primera prueba de flujo de trabajo git flow
+1. Modificacion del readme para  el primer feature 
 
 
 ## 👨‍🚀 Sobre Nosotros
