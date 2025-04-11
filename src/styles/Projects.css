@@ -1,0 +1,26 @@
+.nav-pills-custom .nav-link {
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-pills-custom .nav-link.active {
+    background: linear-gradient(90deg, #ae37f1, #6a2bcd);
+    color: white;
+  }
+  
+  .project-tab:hover {
+    background: linear-gradient(90deg, #6a2bcd, #ae37f1);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .text-center {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
