@@ -22,6 +22,9 @@ export const Footer = () => {
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>
+            <p style={{ fontSize: "12px", marginTop: "5px" }}>
+                Proyecto académico desarrollado con GitFlow
+           </p>
           </Col>
         </Row>
       </Container>
