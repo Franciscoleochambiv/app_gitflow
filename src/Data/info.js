@@ -85,7 +85,7 @@ const portfolioData = [
           title: 'Proyecto 3',
           description: 'Desarrollo Web.',
           image: require('../assets/img/z3.jpg')
-        },Z
+        },
         {
           id: 4,
           title: 'Proyecto 4',
