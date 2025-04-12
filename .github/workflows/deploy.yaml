@@ -17,5 +17,5 @@ jobs:
       - name: Desplegar usando gh-pages
         run: npm run deploy
         env:
-          CI: true
+          CI: false
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
