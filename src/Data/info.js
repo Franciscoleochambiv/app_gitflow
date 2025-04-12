@@ -65,10 +65,8 @@ const portfolioData = [
         name: 'Jacqueline Salvador',
         tagline: 'Administrador de negocios bancarios y Financieros y Estudiante de Ingeniería de Sistemas',
         description: 'Soy estudiante de Ingeniería de Sistemas con interés en el análisis de datos y el desarrollo full-stack. Cuento con experiencia en capacitación, gestión de redes sociales y habilidades en tecnologías clave para el desarrollo web y el manejo de bases de datos.',
-
-
       },
-      skills: ['SQL', 'React', 'Desarrolo Web'],
+      skills: ['SQL', 'React', 'Desarrollo Web'],
       projects: [
         {
           id: 1,
@@ -79,18 +77,31 @@ const portfolioData = [
         {
           id: 2,
           title: 'Proyecto 2',
-          description: 'Desarollo Web.',
+          description: 'Desarrollo Web.',
           image: require('../assets/img/a3.jpg')
         },
         {
           id: 3,
           title: 'Proyecto 3',
-          description: 'Desarollo Web.',
+          description: 'Desarrollo Web.',
           image: require('../assets/img/z3.jpg')
+        },Z
+        {
+          id: 4,
+          title: 'Proyecto 4',
+          description: 'Sistema de ventas para la empresa JATECH.',
+          image: require('../assets/img/sistemaventas_jatech.png')
+        },
+        {
+          id: 5,
+          title: 'Proyecto 5',
+          description: 'Sistema de agendamiento de clientes para AVP.',
+          image: require('../assets/img/avp_agendas.png')
         }
-
       ]
-    },
+    }, 
+       // Registro explícito de la subida de imágenes por Jacqueline
+
     {
       id: 3,
       info: {
