@@ -14,6 +14,11 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
+      - name: Configurar identidad de Git
+        run: |
+          git config --global user.email "grupo90pr@gmail.com"
+          git config --global user.name "GitHub Actions"
+
       - name: Desplegar usando gh-pages
         run: npm run deploy
         env:
