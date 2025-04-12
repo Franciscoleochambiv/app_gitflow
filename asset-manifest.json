@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app_gitflow/static/css/main.304bcfb1.css",
-    "main.js": "/app_gitflow/static/js/main.e19c3da6.js",
+    "main.js": "/app_gitflow/static/js/main.d333fe44.js",
     "static/js/787.fb771931.chunk.js": "/app_gitflow/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/app_gitflow/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/app_gitflow/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -36,11 +36,11 @@
     "static/media/nav-icon1.svg": "/app_gitflow/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/app_gitflow/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
     "main.304bcfb1.css.map": "/app_gitflow/static/css/main.304bcfb1.css.map",
-    "main.e19c3da6.js.map": "/app_gitflow/static/js/main.e19c3da6.js.map",
+    "main.d333fe44.js.map": "/app_gitflow/static/js/main.d333fe44.js.map",
     "787.fb771931.chunk.js.map": "/app_gitflow/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.304bcfb1.css",
-    "static/js/main.e19c3da6.js"
+    "static/js/main.d333fe44.js"
   ]
 }
