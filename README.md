@@ -89,37 +89,58 @@ Soy estudiante de Ingeniería de Sistemas con un enfoque en el desarrollo web fu
 ![Proyectos Damian]
 
 ---
-
-### 👨‍🚀 Edgar Aliaga
+## Actualizando datos para un nuevo feature prueba de Git flow
+# 👨‍🚀 Edgar Aliaga Rojas
 **Especialista en Infraestructura de Red y Telecomunicaciones**
 
 ![Edgar Aliaga]
 
-Soy Técnico en Telecomunicaciones y estudiante de Ingeniería de Sistemas. Apasionado por la inteligencia artificial, la ciberseguridad y la conectividad eficiente en redes robustas.
+Técnico en Telecomunicaciones y estudiante de Ingeniería de Sistemas. Apasionado por la inteligencia artificial, la ciberseguridad y la conectividad eficiente en redes robustas.
 
-**🧠 Habilidades:**
-- Python (95%)
-- Redes (95%)
-- Cisco (95%)
+---
+
+## 🧠 Habilidades
+
+- 🐍 **Python** — 95%  
+- 🌐 **Redes** — 95%  
+- 📡 **Cisco** — 95%
+
+---
 
 **🔗 Proyectos:**
 ![Proyectos Edgar]
 
+- 🔒 **Firewall Dinámico con Mikrotik y Scripts**
+- 📊 **Dashboard con Python y Streamlit**
+- ⚙️ **Automatización de red con Ansible**
+---
+## 🚀 Último Release
+
+📌 **Versión:** `v1.1`  
+🗓️ **Fecha de lanzamiento:** 12 de abril de 2025  
+📝 **Notas:** Primer release estable del portafolio.
+
 ---
 
-## 🧠 Tecnologías Utilizadas
+## 📬 Contacto
 
-- React
-- JavaScript
-- CSS
-- Docker
-- Python
-- Redes y Mikrotik
-- SQL y NoSQL
-- HTML
-- Ciberseguridad
-- GitHub Copilot y ChatGPT (IA Generativa)
+- 📧 [Correo](71937825@continetal.edu.pe)
+- 🌐 [GitHub](https://github.com/EDGAR0922)
 
+---
+
+## 🧪 Tecnologías Utilizadas
+
+- ⚛️ React
+- 📜 JavaScript
+- 🎨 CSS
+- 🐳 Docker
+- 🧠 Python
+- 🌐 Redes y Mikrotik
+- 🗃️ SQL y NoSQL
+- 🌍 HTML
+- 🛡️ Ciberseguridad
+- 🤖 GitHub Copilot y ChatGPT (IA Generativa)
 ---
 
 ## 🧠 Inteligencia Artificial en el Desarrollo
