@@ -63,7 +63,7 @@ const portfolioData = [
       id: 2,
       info: {
         name: 'Jacqueline Salvador',
-        tagline: 'Administrador de negocios bancarios y Financieros y Estudiante de Ingeniería de Sistemas',
+        tagline: 'Administrador de negocios bancarios y Financieros - Estudiante de Ingeniería de Sistemas',
         description: 'Soy estudiante de Ingeniería de Sistemas con interés en el análisis de datos y el desarrollo full-stack. Cuento con experiencia en capacitación, gestión de redes sociales y habilidades en tecnologías clave para el desarrollo web y el manejo de bases de datos.',
       },
       skills: ['SQL', 'React', 'Desarrollo Web'],
