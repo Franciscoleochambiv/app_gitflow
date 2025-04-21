@@ -7,7 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-
+import ContadorVisitas from "./components/ContadorVisitas";
 
 function App() {
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -23,6 +23,12 @@ function App() {
       {selectedPerson && <Skills person={selectedPerson} />}
       {selectedPerson && <Projects person={selectedPerson} />}
       <Contact />
+      
+      {/* Contador de visitas visible */}
+      <div style={{ textAlign: "center", marginTop: "1rem", color: "#fff" }}>
+        <ContadorVisitas />
+      </div>
+
       <Footer />
     </div>
   );
