@@ -1,15 +1,33 @@
 [
     {
-      "username": "grupo90pr@gmail.com",
-      "password": "123456",
-      "nombre": "Francisco Chambi"
+      "username": "30961113@continental.edu.pe",
+      "password": "30961113",
+      "nombre": "FRANCSCO CHAMBI"
     },
 
     {
-      "username": "admin",
-      "password": "1234",
-      "nombre": "Edgar Aliaga"
-    }
+      "username": "71937825@continental.edu.pe",
+      "password": "71937825",
+      "nombre": "EDGAR ALIAGA"
+    },
+
+    {
+      "username": "42146038@continental.edu.pe",
+      "password": "42146038",
+      "nombre": "JACQUELINE SALVADOR"
+    },
     
+    {
+      "username": "71960522@continental.edu.pe",
+      "password": "71960522",
+      "nombre": "RENZO STEPHANO"
+    },
+
+    {
+      "username": "70501405@continental.edu.pe",
+      "password": "70501405",
+      "nombre": "ALEXANDRA TIPACTI"
+    }
+
     ]
   
