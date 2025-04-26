@@ -1,9 +1,10 @@
 // ✅ Usamos require en lugar de import para compatibilidad directa
 const { login } = require('../utils/auth');
+const users = require('../Data/users.json'); // Ahora cargamos todos los usuarios
 
 // Test 1: Usuario incorrecto
 console.log('🔴 Prueba 1: Usuario incorrecto');
-const resultado1 = login('usuario_falso', 'clave');
+const resultado1 = login('usuario_falso', 'clave_falsa');
 console.assert(!resultado1.success, '❌ Debe fallar el login con usuario incorrecto');
 if (!resultado1.success) {
   console.log('✅ Resultado esperado: Acceso denegado');
@@ -11,12 +12,15 @@ if (!resultado1.success) {
   console.log('❌ Resultado inesperado: Acceso permitido');
 }
 
-// Test 2: Usuario correcto
-console.log('\n🟢 Prueba 2: Usuario correcto');
-const resultado2 = login('francisco', '123456'); // Asegúrate que estos datos existen en tu users.json
-console.assert(resultado2.success, '❌ Debe loguear correctamente a Francisco');
-if (resultado2.success) {
-  console.log(`✅ Resultado esperado: Bienvenido ${resultado2.user}`);
-} else {
-  console.log('❌ Resultado inesperado: Acceso denegado');
-}
+// Test 2: Usuarios correctos (probar toda la lista)
+console.log('\n🟢 Prueba 2: Usuarios correctos');
+
+users.forEach(user => {
+  const resultado = login(user.username, user.password);
+  console.assert(resultado.success, `❌ Debe loguear correctamente a ${user.nombre}`);
+  if (resultado.success) {
+    console.log(`✅ Resultado esperado: Bienvenido ${resultado.user}`);
+  } else {
+    console.log(`❌ Resultado inesperado: Acceso denegado para ${user.nombre}`);
+  }
+});
